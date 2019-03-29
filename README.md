@@ -8,9 +8,9 @@ Frank Kane tutorials
 <a href='https://www.youtube.com/watch?v=XrpSRCwISdk&t=1452s'>Andrew Ray's talk</a>  
 
 Further exploration will include setting up a Hadoop cluster on RaspberryPi. Why?  
-Good way to work with tangible distributed compute.
-Cheap (but slow)
-Quiet
+Good way to work with tangible distributed compute.  
+Cheap (but slow)  
+Quiet  
 
 ### Installation
 **Java**  
@@ -41,3 +41,5 @@ May be necessary to install pypandoc(?), can be done with pip.
 `from pyspark import SparkConf, SparkContext`  
 `import collections`  
 
+### HadooPi - RaspberryPi Hadoop Cluster  
+<img src='Pi.jpeg' />
