@@ -8,8 +8,8 @@ Further exploration includes setting up a Hadoop cluster on RaspberryPi.
 
 **Basic imports and declarations to get started with PySpark**
 
-`from pyspark import SparkConf, SparkContext  
-import collections  
+`from pyspark import SparkConf, SparkContext`  
+`import collections`  
 
-conf = SparkConf().setMaster("local").setAppName("RatingsHistogram")  
-sc = SparkContext(conf = conf)`
+`conf = SparkConf().setMaster("local").setAppName("RatingsHistogram")`  
+`sc = SparkContext(conf = conf)`  
