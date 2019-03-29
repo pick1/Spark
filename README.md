@@ -1,13 +1,16 @@
-# Spark
-
 ***
 <a href='https://github.com/pick1'> <img src='sparkjupyter.png' /></a>
 ***
 General repo for all-things Spark, PySpark and Hadoop
 
-Includes exploratory data analysis using PySpark based on Frank Kane's tutorials.
+Includes exploratory data analysis and guidance from:  
+Frank Kane tutorials  
+<a href='https://www.youtube.com/watch?v=XrpSRCwISdk&t=1452s'>Andrew Ray's talk</a>  
 
-Further exploration includes setting up a Hadoop cluster on RaspberryPi.
+Further exploration will include setting up a Hadoop cluster on RaspberryPi. Why?  
+Good way to work with tangible distributed compute.
+Cheap (but slow)
+Quiet
 
 ### Installation
 **Java**  
@@ -27,10 +30,12 @@ Get hadoop/Spark tar
 `wget https://www-us.apache.org/dist/spark/spark-2.4.0/spark-2.4.0-bin-hadoop2.7.tgz`  
 Untar  
 `tar -zxvf spark-2.4.0-bin-hadoop2.7.tgz`  
-**PySpark**
+**PySpark**  
 cd into untarred directory/python and run python install setup.py  
-`sudo python setup.py install`
+`sudo python setup.py install`  
+May be necessary to install pypandoc(?), can be done with pip.  
 
+### Usage
 **Basic imports and declarations to get started with PySpark and a SparkContext**
 
 `from pyspark import SparkConf, SparkContext`  
